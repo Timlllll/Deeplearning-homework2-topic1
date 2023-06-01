@@ -17,3 +17,8 @@ Baseline：经过10个epoch的训练后，训练准确率达到99.6%，训练损
 Cutout：在对训练集加入cutout后经过10个epoch的训练后，训练集准确率达到99.5%，训练损失下降到0.039，但验证集上的准确率为52.7%，仍较低，存在过拟合现象，并未达到预期目的。
 ![image](https://github.com/Timlllll/Deeplearning-homework2-topic1/assets/123872391/0450bdcb-0f54-4c6f-9e8f-75fb53f3bedd)
 <img width="282" alt="image" src="https://github.com/Timlllll/Deeplearning-homework2-topic1/assets/123872391/3ce38312-0fc6-4d91-ba98-baaddae6a811">
+cutmix：在对训练集加入cutmix后经过10个epoch的训练后，训练集准确率达到99.6%，训练损失下降到0.032，但验证集上的准确率为51.4%，仍较低，存在过拟合现象，并未达到预期目的。
+<img width="293" alt="image" src="https://github.com/Timlllll/Deeplearning-homework2-topic1/assets/123872391/657da420-c73b-480a-af9b-1de2c083a3c3">
+mixup：在对训练集加入mixup后经过10个epoch的训练后，训练集准确率达到90.8%，训练损失下降到0.431，但验证集上的准确率为38.7%，仍较低，存在过拟合现象，并未达到预期目的。
+<img width="293" alt="image" src="https://github.com/Timlllll/Deeplearning-homework2-topic1/assets/123872391/f189edc7-b238-4e5f-9b95-9a2031d141b8">
+
